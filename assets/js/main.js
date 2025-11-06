@@ -11,17 +11,19 @@
 		$sidebar = $('#sidebar');
 
 	// Breakpoints.
-		breakpoints({
+/*		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
 			large:    [ '981px',   '1280px' ],
 			medium:   [ '737px',   '980px'  ],
 			small:    [ '481px',   '736px'  ],
 			xsmall:   [ null,      '480px'  ]
 		});
+*/
 
 	// Hack: Enable IE flexbox workarounds.
-		if (browser.name == 'ie')
+/*		if (browser.name == 'ie')
 			$body.addClass('is-ie');
+*/
 
 	// Play initial animations on page load.
 		$window.on('load', function() {
@@ -114,7 +116,7 @@
 		}
 
 	// Scrolly.
-		$('.scrolly').scrolly({
+/*		$('.scrolly').scrolly({
 			speed: 1000,
 			offset: function() {
 
@@ -128,6 +130,7 @@
 
 			}
 		});
+*/
 
 	// Spotlights.
 		$('.spotlights > section')
